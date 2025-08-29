@@ -18,12 +18,12 @@ int main (){
 
     int população_1, pontos_turisticos_1;                 // Declaração de variáveis da primeira carta
     float area_1, pib_1;
-    char estado_1, codigo_1[3], cidade_1[10];
+    char estado_1, codigo_1[10], cidade_1[20];
 
     
     int população_2, pontos_turisticos_2;                 // Declaração de variáveis da segunda carta
     float area_2, pib_2;
-    char estado_2, codigo_2[3], cidade_2[10];
+    char estado_2, codigo_2[10], cidade_2[20];
 
  
     
@@ -91,8 +91,6 @@ int main (){
     printf("Área: %.3fkm²\n", area_2);
     printf("PIB: %.3f\n", pib_2);
     printf("Pontos Turísticos: %d\n", pontos_turisticos_2);
-
-
 
 
 
