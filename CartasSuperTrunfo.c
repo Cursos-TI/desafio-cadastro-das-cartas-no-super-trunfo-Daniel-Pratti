@@ -5,12 +5,12 @@ int main (){
     printf(" - Você irá cadastrar 2 cartas de cidades.\n");
     printf(" - Cada carta deverá conter as seguintes informações.\n\n");
     printf(" - Estado: uma letra de 'A' a 'H'           |Obs:representa um dos estados|\n");
-    printf(" - Código da Carta:número de 01 a 04        |ex:  01, 03                  |\n");
-    printf(" - Nome da Cidade: o Nome da cidade         |ex:  Vitótia                 |\n");
-    printf(" - População: número de habitantes          |ex:  4575231                 |\n");
-    printf(" - Área: em km²                             |ex:  4331.5                  |\n");
-    printf(" - PIB: Produto Interno Bruto da cidade     |ex:  12345.67                |\n");
-    printf(" - Pontos Turísticos: número de pontos      |ex:  15                      |\n\n"); //Espaço extra para melhor visualização
+    printf(" - Código da Carta:número de 01 a 04        |Ex:  01, 03                  |\n");
+    printf(" - Nome da Cidade: o Nome da cidade         |Ex:  Vitória                 |\n");
+    printf(" - População: número de habitantes          |Ex:  4575231                 |\n");
+    printf(" - Área: em km²                             |Ex:  4331.5                  |\n");
+    printf(" - PIB: Produto Interno Bruto da cidade     |Ex:  12345.67                |\n");
+    printf(" - Pontos Turísticos: número de pontos      |Ex:  15                      |\n\n"); //Espaço extra para melhor visualização
     printf("Agora vamos cadastrar a primeira carta:\n\n");
 
 
@@ -86,7 +86,7 @@ int main (){
     printf("Estado: %s\n", estado_2);
     printf("Código: %s%s\n",estado_2, codigo_2);
     printf("População: %d\n", população_2);
-    printf("Área: %.3f km²\n", area_2);
+    printf("Área: %.3fkm²\n", area_2);
     printf("PIB: %.3f\n", pib_2);
     printf("Pontos Turísticos: %d\n", pontos_turisticos_2);
 
