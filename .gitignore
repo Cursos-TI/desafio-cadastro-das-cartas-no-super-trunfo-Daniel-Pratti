@@ -1,4 +1,4 @@
 .vscode/
 .github/
 
-git rm -r --cached .github
+git rm -r --cached .vscode/
